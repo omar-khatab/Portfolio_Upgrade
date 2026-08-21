@@ -73,7 +73,7 @@ Before React, 7 landing pages with pure HTML/CSS/JS:
 |---------|---------------|------|
 | Leon Agency | Semantic HTML5, BEM, responsive nav | [Demo](https://omar-khatab.github.io/Leon-Agency/) |
 | Kasper Agency | Overlay effects, portfolio filter | [Demo](https://omar-khatab.github.io/Template_2/) |
-| Elzero World | Mega menu, animations, Grid | [Demo](https://omar-khatab.github.io/Template_3/) |
+| Digital Agency | Digital Agency, animations, Grid | [Demo](https://omar-khatab.github.io/Template_3/) |
 | Special Design | Theme switcher, LocalStorage, gallery | [Demo](https://omar-khatab.github.io/Template_4/) |
 | Classic Agency | Clean architecture, performance | [Demo](https://omar-khatab.github.io/Template_5/) |
 | Admin Dashboard | 8 pages, Grid + Flexbox complex | [Demo](https://omar-khatab.github.io/Admin-Dashboard/) |
