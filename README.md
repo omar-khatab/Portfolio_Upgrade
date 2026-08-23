@@ -23,7 +23,7 @@ Grad Projects: Solar Cell Cooling (15% efficiency boost), Pitch System Control (
 
 ## 🛠️ Tech Stack
 
-**Core:** React.js, Next.js 14 (App Router, Server Components), JavaScript ES6+, HTML5, CSS3
+**Core:** React.js, Next.js (App Router, Server Components), JavaScript ES6+, HTML5, CSS3
 
 **UI:** Material UI (MUI), Tailwind CSS, Framer Motion, BEM Architecture, Flexbox + Grid
 
@@ -67,16 +67,15 @@ First professional PSD to HTML conversion. Semantic HTML5, BEM, responsive navig
 
 ## 💪 Strong Fundamentals Showcase
 
-Before React, 7 landing pages with pure HTML/CSS/JS:
+Before React, 5 landing pages with pure HTML/CSS/JS:
 
 | Project | What I Learned | Live |
 |---------|---------------|------|
 | Leon Agency | Semantic HTML5, BEM, responsive nav | [Demo](https://omar-khatab.github.io/Leon-Agency/) |
 | Kasper Agency | Overlay effects, portfolio filter | [Demo](https://omar-khatab.github.io/Template_2/) |
-| Elzero World | Mega menu, animations, Grid | [Demo](https://omar-khatab.github.io/Template_3/) |
-| Special Design | Theme switcher, LocalStorage, gallery | [Demo](https://omar-khatab.github.io/Template_4/) |
-| Classic Agency | Clean architecture, performance | [Demo](https://omar-khatab.github.io/Template_5/) |
-| Admin Dashboard | 8 pages, Grid + Flexbox complex | [Demo](https://omar-khatab.github.io/Admin-Dashboard/) |
+| Digital Agency | Theme switcher, swiper.js | [Demo](https://omar-khatab.github.io/Template_3/) |
+| Gonex Agency | video control, gallery, basic motion | [Demo](https://omar-khatab.github.io/Template_4/) |
+| Special Agency | Clean architecture, performance, user control | [Demo](https://omar-khatab.github.io/Template_5/) |
 
 **Full showcase:** [`roots-before-react`](https://omar-khatab.github.io/roots-before-react/) — Multi-page site proving fundamentals mastery.
 
