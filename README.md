@@ -12,7 +12,7 @@
 
 BSc Mechanical Power Engineering — Ain Shams University (2019-2024) — GPA 2.85
 
-Before jumping to React, I spent 2 years mastering **pure HTML5, CSS3, JavaScript** — building 7 production landing pages with **no frameworks**. That foundation makes my React/Next.js code cleaner, faster, and more maintainable.
+Before jumping to React, I spent 2 years mastering **pure HTML5, CSS3, JavaScript** — building 5 production landing pages with **no frameworks**. That foundation makes my React/Next.js code cleaner, faster, and more maintainable.
 
 **Engineering → Frontend:** Thermodynamics, Fluid Mechanics, AutoCAD, ANSYS, MATLAB → analytical thinking → clean system design → clean code.
 
