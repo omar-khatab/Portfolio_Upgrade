@@ -1,162 +1,220 @@
-# Omar Khatab — Portfolio Upgrade 🚀
+<div align="center">
 
-> **Frontend Developer | React / Next.js / Material UI**  
-> Mechanical Power Engineer turned Frontend Developer — Building clean, fast, responsive UIs.
+# 👋 Hi, I'm Omar Khatab
 
-**Live Demo:** [portfolio-upgrade-wr9n.vercel.app](https://portfolio-upgrade-wr9n.vercel.app/)  
-**Old Fundamentals Showcase:** [omar-khatab.github.io/Portfolio/](https://omar-khatab.github.io/roots-before-react/) → now `roots-before-react`
+### Engineering Software Developer | Frontend Developer
+
+<p>
+  <img 
+src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=61DAFB&center=true&vCenter=true&width=700&lines=Engineering+Software+Developer;Frontend+Developer+•+React+%7C+Next.js;From+Thermodynamics+to+TypeScript;Building+Production-Ready+Apps+🚀"
+  alt="Typing SVG" />
+</p>
+
+<p>
+  <a href="https://hvac-calculator-ebon.vercel.app/">
+    <img src="https://img.shields.io/badge/🔧_HVAC_Suite-Live-000?style=for-the-badge" />
+  </a>
+  <a href="https://e-commerce-three-coral-58.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-Visit-111827?style=for-the-badge" />
+  </a>
+  <a href="https://www.linkedin.com/in/omar-essam-319c/">
+    <img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="mailto:omaressam0870@gmail.com">
+    <img src="https://img.shields.io/badge/✉️_Email-Contact-EA4335?style=for-the-badge" />
+  </a>
+</p>
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css" />
+
+**📍 Cairo, Egypt** • **🎓 Ain Shams University — Mechanical Power Engineering (2026)** • **🎯 Open to Frontend Roles**
+
+</div>
 
 ---
 
-## 👨‍💻 About Me
+> **Engineering mindset, frontend execution.**
+> I translate real engineering problems into clean, fast, maintainable web apps. Mechanical Power background + React/Next.js.
 
-BSc Mechanical Power Engineering — Ain Shams University (2019-2024) — GPA 2.85
+---
 
-Before jumping to React, I spent 2 years mastering **pure HTML5, CSS3, JavaScript** — building 5 production landing pages with **no frameworks**. That foundation makes my React/Next.js code cleaner, faster, and more maintainable.
+## 🔥 Featured — HVAC Engineering Suite
 
-**Engineering → Frontend:** Thermodynamics, Fluid Mechanics, AutoCAD, ANSYS, MATLAB → analytical thinking → clean system design → clean code.
+<div align="center">
 
-Internships: National Authority for Tunnels (HVAC, ventilation), Arab Contractors (IC engines).  
-Grad Projects: Solar Cell Cooling (15% efficiency boost), Pitch System Control (MATLAB/Simulink).
+### 🔧 HVAC Duct & BTU Calculator — Live on Vercel
+
+**The project that defines my profile: MEP engineering + modern frontend in one codebase**
+
+[[Live](https://img.shields.io/badge/Live-hvac--calculator--ebon.vercel.app-000?style=for-the-badge)](https://hvac-calculator-ebon.vercel.app/)
+[[Code](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/omar-khatab/HVAC-Calculator)
+
+`Next.js 15` `TypeScript` `Tailwind` `ASHRAE` `Equal Friction Method` `Q=U·A·ΔT` `CFM=Q/(1.08·ΔT)`
+
+</div>
+
+- **What it does:** Cooling load `Q=U·A·ΔT`, airflow CFM, duct sizing (continuity equation), U-value — real-time <15ms
+- **Why it matters:** Built from my internship at **National Authority for Tunnels (HVAC Systems)** — not a tutorial clone
+- **Tech highlight:** Pure TypeScript engineering functions with Zod validation, no backend
+
+---
+
+## 🌱 Roots Before React
+
+> **Strong fundamentals first. Frameworks second.**
+
+Before React, I built 5 production landing pages with **pure HTML5/CSS3/JS — no frameworks**.
+
+| Project | Focus |
+|---------|-------|
+| 🏠 **Leon** | Responsive, modern UI |
+| 🎨 **Kasper** | Flexbox, advanced responsive |
+| 💻 **Digital** | CSS Grid, animations |
+| 🚀 **Gonex** | BEM methodology |
+| ✨ **Special Agency** | JavaScript interactions |
+
+`Semantic HTML` `BEM` `Flexbox` `Grid` `PSD to HTML` `Vanilla JS`
+
+[🌱 Explore Roots Before React](https://omar-khatab.github.io/roots-before-react/)
+
+---
+
+## ⚛️ Featured Projects
+
+### 🛒 E-Commerce Store — React + Context API
+
+Full-featured storefront with real API, skeleton loading, persistent cart & wishlist.
+
+`React 19` `Context API` `Framer Motion` `DummyJSON API` `React Hot Toast`
+
+[🌐 Live Demo](https://e-commerce-three-coral-58.vercel.app/) • [💻 Code](https://github.com/omar-khatab/e-commerce)
+
+### ▲ SaaS Landing — Next.js App Router
+
+Conversion-focused landing with hero, features, pricing, testimonials, responsive performance.
+
+`Next.js` `App Router` `React 19` `Tailwind` `Framer Motion`
+
+[🌐 Live](https://saa-s-landing-next-js-wyx7-git-ver-3448ad-omar-khatabs-projects.vercel.app/) • [💻 Code](https://github.com/omar-khatab/saas-landing-next.js)
+
+### 📊 Admin Dashboard — 8 Pages
+
+Complete admin panel: Dashboard, Projects, Courses, Files, Friends, Plans, Profile, Settings.
+
+`HTML5` `CSS3` `JavaScript` `Responsive`
+
+[🌐 Live](https://omar-khatab.github.io/Admin-Dashboard/) • [💻 Code](https://github.com/omar-khatab/admin-dashboard)
+
+---
+
+## 🧭 My Journey
+
+```
+        🌐 WEB FUNDAMENTALS
+                 │
+                 ▼
+         HTML5 + CSS3 + JS
+                 │
+                 ▼
+        🌱 ROOTS BEFORE REACT
+          5 Vanilla Projects
+                 │
+                 ▼
+              ⚛️ REACT
+         Context, Router, Motion
+                 │
+                 ▼
+            ▲ NEXT.JS 15
+         App Router, RSC
+                 │
+                 ▼
+           🟦 TYPESCRIPT
+        Strict, Zod, Pure Funcs
+                 │
+                 ▼
+     🔧 ENGINEERING × FRONTEND
+      HVAC Suite — My Bridge
+                 │
+                 ▼
+      🚀 PRODUCTION-READY FRONTEND
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Core:** React.js, Next.js (App Router, Server Components), JavaScript ES6+, HTML5, CSS3
+### Core
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" />
 
-**UI:** Material UI (MUI), Tailwind CSS, Framer Motion, BEM Architecture, Flexbox + Grid
+**Also:** Framer Motion • Material UI • Context API • REST APIs • Zod • React Router
 
-**State & Data:** Context API, REST API, LocalStorage
+### Engineering
+`ASHRAE` `Thermodynamics` `Fluid Mechanics` `Heat Transfer` `AutoCAD` `MATLAB` `HAP (basic)`
 
-**Tools:** Git, GitHub, Vercel, GitHub Pages, Responsive Design, PSD/Figma to HTML, Clean Code
-
----
-
-## 🚀 Featured Projects
-
-### 1. E-Commerce Store — React [FEATURED]
-**Live:** [e-commerce-three-coral-58.vercel.app](https://e-commerce-three-coral-58.vercel.app/) | **Code:** [GitHub](https://github.com/omar-khatab/E-commerce)
-
-Full e-commerce with cart, wishlist, categories, filtering, product details, checkout UI. Context API for state, Framer Motion for animations, fully responsive.
-
-`React 19` `Context API` `Framer Motion` `Tailwind CSS` `Responsive`
-
-### 2. Admin Dashboard — 8 Pages
-**Live:** [omar-khatab.github.io/Admin-Dashboard](https://omar-khatab.github.io/Admin-Dashboard/) | **Code:** [GitHub](https://github.com/omar-khatab/Admin-Dashboard)
-
-Complete admin panel: Dashboard, Projects, Courses, Files, Friends, Plans, Profile, Settings. Complex layouts with CSS Grid + Flexbox, statistics, tasks, file manager. **Proves strong fundamentals.**
-
-`HTML5` `CSS3 Grid` `Flexbox` `Vanilla JS` `8 Pages` `No Frameworks`
-
-### 3. SaaS Landing — Next.js
-**Live:** [SaaS Landing](https://saa-s-landing-next-js-wyx7-git-ver-3448ad-omar-khatabs-projects.vercel.app/) | **Code:** [GitHub](https://github.com/omar-khatab/SaaS-Landing-Next.js)
-
-Modern SaaS landing built with Next.js App Router, React 19. Hero, features, pricing, testimonials, FAQ. Performance optimized.
-
-`Next.js 14` `React 19` `Tailwind` `App Router` `Performance`
-
-### 4. Leon Agency — PSD to HTML
-**Live:** [omar-khatab.github.io/Leon-Agency](https://omar-khatab.github.io/Leon-Agency/) | **Code:** [GitHub](https://github.com/omar-khatab/Leon-Agency)
-
-First professional PSD to HTML conversion. Semantic HTML5, BEM, responsive navigation. Foundation of frontend journey.
-
-`HTML5` `CSS3` `BEM` `Semantic` `Pixel-Perfect`
+### Tools
+<img src="https://skillicons.dev/icons?i=git,github,vercel,vscode" />
 
 ---
 
-## 💪 Strong Fundamentals Showcase
+## 🔥 GitHub Stats
 
-Before React, 5 landing pages with pure HTML/CSS/JS:
-
-| Project | What I Learned | Live |
-|---------|---------------|------|
-| Leon Agency | Semantic HTML5, BEM, responsive nav | [Demo](https://omar-khatab.github.io/Leon-Agency/) |
-| Kasper Agency | Overlay effects, portfolio filter | [Demo](https://omar-khatab.github.io/Template_2/) |
-| Digital Agency | Theme switcher, swiper.js | [Demo](https://omar-khatab.github.io/Template_3/) |
-| Gonex Agency | video control, gallery, basic motion | [Demo](https://omar-khatab.github.io/Template_4/) |
-| Special Agency | Clean architecture, performance, user control | [Demo](https://omar-khatab.github.io/Template_5/) |
-
-**Full showcase:** [`roots-before-react`](https://omar-khatab.github.io/roots-before-react/) — Multi-page site proving fundamentals mastery.
-
-Checklist:
-- ✅ PSD/Figma to HTML — Pixel Perfect
-- ✅ Semantic HTML5
-- ✅ BEM Architecture
-- ✅ Flexbox + Grid
-- ✅ Responsive 320px → 1920px
-- ✅ Cross-browser
-- ✅ Clean Code
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=omar-khatab&theme=tokyonight&hide_border=true" />
+<br>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=omar-khatab&theme=tokyonight" />
+</div>
 
 ---
 
-## 📂 Folder Structure
+## ⚙️ Engineering Background
 
-```
-/app or /src
-  /components - Reusable UI components (MUI, Tailwind)
-  /pages or /app - Next.js App Router pages
-  /styles - Global styles, Tailwind config
-  /public - Images, icons
-  /utils - Helpers, constants
-```
+**Mechanical Power Engineering, Ain Shams University (2026)**
 
----
+- 🧠 Analytical & systems thinking
+- 🔍 Problem-solving from first principles
+- 📐 Attention to detail (tolerances matter)
 
-## 🚀 Getting Started
+**Experience:**
+- **National Authority for Tunnels** — HVAC Systems, ventilation design
+- **Arab Contractors** — IC Engines
 
-```bash
-# Clone
-git clone https://github.com/omar-khatab/Portfolio-Upgrade.git
-
-# Install
-npm install
-# or
-yarn install
-
-# Run dev
-npm run dev
-# or
-yarn dev
-
-# Build
-npm run build
-```
-
-Open [http://localhost:3000](http://localhost:3000)
+**Graduation Projects:**
+- **Pitch System Control**
+- **Solar Cell Cooling System** — 15% efficiency improvement
 
 ---
 
-## 🌐 Deployment
+## 🎯 Looking For
 
-Deployed on **Vercel** — auto deploy on push to main.
+- Junior Frontend Developer (React / Next.js)
+- Roles where engineering thinking is valued
+- Teams building real products
 
-- **Current Portfolio:** [portfolio-upgrade-wr9n.vercel.app](https://portfolio-upgrade-wr9n.vercel.app/)
-- **Old Showcase:** [omar-khatab.github.io/Portfolio/](https://omar-khatab.github.io/roots-before-react/) (GitHub Pages)
-
----
-
-## 📬 Contact
-
-- **Phone / WhatsApp:** 01278358368
-- **Email:** omareessam0870@gmail.com
-- **Location:** Cairo, Egypt
-- **GitHub:** [github.com/omar-khatab](https://github.com/omar-khatab)
-- **LinkedIn:** [linkedin.com/in/omar-essam-319c](https://www.linkedin.com/in/omar-essam-319c/)
-- **Portfolio:** [portfolio-upgrade-wr9n.vercel.app](https://portfolio-upgrade-wr9n.vercel.app/)
-
-**Freelance:** Available
+**I bring:** Not just UI, but ability to model real-world physics in TypeScript and ship it fast.
 
 ---
 
-## 📝 What Makes This Different?
+## 📫 Let's Connect
 
-> Most developers jump to React too fast. I spent 2 years mastering HTML, CSS, JavaScript — so I understand how the web really works. This makes my React code different: cleaner, more semantic, better performance, easier to debug.
-
-Built with ❤️ by Omar Khatab — Frontend Developer with engineering mindset.
+<div align="center">
+<a href="https://hvac-calculator-ebon.vercel.app/">
+<img src="https://img.shields.io/badge/🔧_HVAC_Suite-Live_Demo-000?style=for-the-badge" />
+</a>
+<a href="https://e-commerce-three-coral-58.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Portfolio-Visit-111827?style=for-the-badge" />
+</a>
+<a href="https://www.linkedin.com/in/omar-essam-319c/">
+<img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge" />
+</a>
+</div>
 
 ---
 
-### License
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=omar-khatab&style=flat-square&label=Profile+Views" />
+<br><br>
 
-MIT — Feel free to fork and learn from it. If you use it, give a star ⭐
+### 🚀 Engineering Software Developer | Frontend Developer — 2026
+**Build. Learn. Ship.**
+
+</div>
