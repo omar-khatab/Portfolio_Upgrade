@@ -133,6 +133,10 @@ small{color:var(--muted)}
           <input id="ppl" type="range" min="1" max="12" value="3">
         </div>
         <div class="field">
+          <label for="windows">Windows <output id="windowsOut">3</output></label>
+          <input id="windows" type="range" min="1" max="12" value="3">
+        </div>
+        <div class="field">
           <label for="sun">Sun exposure</label>
           <select id="sun">
             <option value="0.9">Mostly shaded</option>
@@ -144,9 +148,10 @@ small{color:var(--muted)}
           <div class="big" id="total">–</div>
           <ul>
             <li><span>Area load (area × 20 BTU/ft²)</span><span id="l1"></span></li>
-            <li><span>Extra people (600 BTU each beyond 2)</span><span id="l2"></span></li>
-            <li><span>Sun factor</span><span id="l3"></span></li>
-            <li><span>Suggested unit</span><span id="l4"></span></li>
+            <li><span>Extra people (600 BTU each)</span><span id="l2"></span></li>
+            <li><span>Windows (1000 BTU each)</span><span id="l3"></span></li>
+            <li><span>Sun factor</span><span id="l4"></span></li>
+            <li><span>Suggested unit</span><span id="l5"></span></li>
           </ul>
         </div>
       </div>
@@ -166,7 +171,7 @@ small{color:var(--muted)}
         <p>The calculations are pure TypeScript functions, separate from the React components. That made them easy to test, including bad input like zero, negative values and NaN. A shared typed input component (slider plus validation) is reused across both calculators.</p>
         <div class="tags"><span>Next.js App Router</span><span>TypeScript</span><span>Tailwind</span><span>Vitest</span><span>React Testing Library</span><span>Playwright</span><span>GitHub Actions</span></div>
         <div class="links-row">
-          <a href="REPLACE-WITH-LIVE-DEMO-URL">Live demo</a>
+          <a href="https://hvac-calculator-ebon.vercel.app/">Live demo</a>
           <a href="https://github.com/omar-khatab/HVAC-Calculator">Code</a>
           <a href="https://omar-khatab.github.io/HVAC-Calculator/playwright/">Playwright report</a>
           <a href="https://omar-khatab.github.io/HVAC-Calculator/lighthouse/">Lighthouse report</a>
@@ -193,7 +198,7 @@ small{color:var(--muted)}
           <li>Error handling and skeleton loading states, search, category filtering, and cart and favorites saved in localStorage.</li>
           <li>Mobile-first layout with Framer Motion animations.</li>
         </ul>
-        <div class="links-row"><a href="REPLACE-WITH-LIVE-DEMO-URL">Live demo</a><a href="https://github.com/omar-khatab/E-commerce">Code</a></div>
+        <div class="links-row"><a href="https://e-commerce-three-coral-58.vercel.app/">Live demo</a><a href="https://github.com/omar-khatab/E-commerce">Code</a></div>
       </div>
     </article>
 
@@ -208,7 +213,7 @@ small{color:var(--muted)}
           <li>Built an O(1) hash-map variant selector, a Black + Medium cross-sell that adds automatically, and a header cart that refreshes without a page reload (Ajax Cart and Section Rendering APIs).</li>
           <li>Prevented race conditions by locking popups while requests are in flight. Worked through feature branches and pull requests.</li>
         </ul>
-        <div class="links-row"><a href="https://github.com/omar-khatab/omar-khatab">Code</a></div>
+        <div class="links-row"><a href="https://github.com/omar-khatab/shopify-custom-sections">Code</a></div>
       </div>
     </article>
   </div>
@@ -283,20 +288,23 @@ small{color:var(--muted)}
   var $=function(id){return document.getElementById(id)};
   var fmt=function(n){return n.toLocaleString("en-US")};
   function calc(){
-    var area=+$("area").value, ppl=+$("ppl").value, sun=+$("sun").value;
+    var area=+$("area").value, ppl=+$("ppl").value, windows=+$("windows").value, sun=+$("sun").value;
     var base=Math.round(area*10.764*20);
     var extra=Math.max(0,ppl-2)*600;
-    var total=Math.round((base+extra)*sun);
+    var windowsExtra=windows*1000;
+    var total=Math.round((base+extra+windowsExtra)*sun);
     var tons=Math.max(0.5,Math.round(total/12000*2)/2);
     $("areaOut").textContent=area+" m²";
     $("pplOut").textContent=ppl;
+    $("windowsOut").textContent=windows;
     $("l1").textContent=fmt(base)+" BTU";
     $("l2").textContent=fmt(extra)+" BTU";
-    $("l3").textContent="× "+sun;
-    $("l4").textContent="about "+tons+" ton";
+    $("l3").textContent=fmt(windowsExtra)+" BTU";
+    $("l4").textContent="× "+sun;
+    $("l5").textContent="about "+tons+" ton";
     $("total").textContent=fmt(total)+" BTU/h";
   }
-  ["area","ppl","sun"].forEach(function(id){$(id).addEventListener("input",calc)});
+  ["area","ppl","windows","sun"].forEach(function(id){$(id).addEventListener("input",calc)});
   calc();
 })();
 </script>
