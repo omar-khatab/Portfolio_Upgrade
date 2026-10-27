@@ -2,9 +2,9 @@
 
 # 💼 Portfolio Upgrade — Personal Portfolio
 
-### Frontend Developer | Engineering Software Developer — Omar Khatab
+### Frontend Developer | Python Automation | Engineering Software Developer — Omar Khatab
 
-**Modern, responsive portfolio built to showcase Engineering × Frontend projects**
+**Modern, responsive portfolio built to showcase Engineering × Frontend × Python projects**
 
 <br>
 
@@ -20,7 +20,7 @@
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,js,html,css,mui" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,python,js,html,css,mui" />
 
 **Cairo, Egypt • Ain Shams University — Mechanical Power Engineering (2026)**
 
@@ -30,11 +30,11 @@
 
 ## 📖 About
 
-This is my **current personal portfolio** — designed to present my journey from Mechanical Power Engineering to Frontend Development. It highlights my unique angle: **Engineering Software Developer | Frontend Developer**.
+This is my **current personal portfolio** — designed to present my journey from Mechanical Power Engineering to **Frontend + Python Automation**.
 
-Unlike generic portfolios, this one is built around 5 real projects that show progression from fundamentals to production-ready apps, with **HVAC Engineering Suite** as the featured project that bridges both worlds.
+Unlike generic portfolios, this one is built around 6 real projects that show progression from fundamentals to production-ready apps, bridging Engineering, Frontend, and Automation.
 
-**Live:** https://omar-khatab.github.io/Portfolio_Upgrade/ (or your Vercel deployment)
+**Live:** https://omar-khatab.github.io/Portfolio_Upgrade/
 
 ---
 
@@ -42,144 +42,65 @@ Unlike generic portfolios, this one is built around 5 real projects that show pr
 
 ### 🎯 Sections
 
-- **Hero** — Engineering Software Developer | Frontend Developer, with typing animation, location, availability
-- **About Me** — Mechanical Power background + frontend transition story
-- **Roots Before React** — 5 vanilla projects (Leon, Kasper, Digital, Gonex, Special Design) that prove fundamentals
-- **Featured Projects:**
-  - 🔧 **HVAC Engineering Suite** — https://hvac-calculator-ebon.vercel.app/ (Featured)
-  - 🛒 **E-Commerce Store** — React + Context API, DummyJSON, Framer Motion
-  - ▲ **SaaS Landing** — Next.js App Router, conversion-focused
-  - 📊 **Admin Dashboard** — 8 pages, pure HTML/CSS/JS
-- **Journey** — Visual timeline from HTML/CSS/JS → React → Next.js → HVAC → Production
-- **Tech Stack** — Frontend, Engineering, Tools
+- **Hero** — Frontend Developer | Python Automation | Engineering Software
+- **About Me** — Mechanical Power background + frontend + Python story
+- **Roots Before React** — 5 vanilla projects (Leon, Kasper, Digital, Gonex, Special Design)
+- **Projects:**
+    - 🔧 **HVAC Engineering Suite** — https://hvac-calculator-ebon.vercel.app/
+    - 🐍 **File Organizer — Python Automation + Desktop GUI**
+    - 🛒 **E-Commerce Store** — React + Context API, DummyJSON, Framer Motion
+    - ▲ **SaaS Landing** — Next.js App Router
+    - 📊 **Admin Dashboard** — 8 pages, pure HTML/CSS/JS
+- **Journey** — Timeline from HTML/CSS/JS → React → Next.js → Python Tools → Production
+- **Tech Stack** — Frontend, Python, Engineering, Tools
 - **Contact** — Portfolio, LinkedIn, Email, GitHub
-
-### 🎨 Features
-
-- **Fully Responsive** — Mobile-first, tested 320px → 1920px
-- **Modern UI** — Material UI components + custom CSS
-- **Smooth Animations** — Framer Motion / CSS transitions for section reveals
-- **Fast Performance** — Optimized images, lazy loading
-- **Clean Code** — Component-based architecture, reusable sections
-- **Engineering Identity** — Not just another frontend portfolio — emphasizes MEP + code bridge
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 | Category | Tools |
 |----------|-------|
-| **Framework** | React.js / Next.js |
-| **UI Library** | Material UI (MUI) |
+| **Frontend** | React 19, Next.js 15 (App Router), TypeScript (Strict), Tailwind CSS, Framer Motion |
+| **Python** | Python, PySide6 (Desktop GUI), SQLite, pathlib, watchdog, argparse |
+| **Testing** | Vitest, React Testing Library, Playwright (28 E2E) |
+| **E-Commerce** | Shopify (Liquid, Ajax Cart, Section Rendering API) |
 | **Language** | JavaScript (ES6+), HTML5, CSS3 |
-| **Styling** | CSS3, Flexbox, Grid, Responsive Design, BEM |
-| **Icons** | FontAwesome / Material Icons |
 | **Deployment** | GitHub Pages / Vercel |
-| **Version Control** | Git & GitHub |
-
-**Also:** Framer Motion for animations, React Router for navigation
 
 ---
 
-## 📂 Project Structure
+## 🔗 Projects Links
 
-```
-Portfolio_Upgrade/
-├── Css/
-│   └── style.css          # Main styles, responsive, animations
-├── images/
-│   ├── projects/          # Project screenshots
-│   └── profile/           # Profile images
-├── js/
-│   └── main.js            # Interactions, smooth scroll, filters
-├── webfonts/              # FontAwesome / custom fonts
-├── index.html             # Main portfolio page
-└── README.md              # This file
-```
+| Project | Live Demo | Source Code | Stack |
+|---------|-----------|-------------|-------|
+| **🔧 HVAC Suite** | https://hvac-calculator-ebon.vercel.app/ | https://github.com/omar-khatab/HVAC-Calculator | Next.js 15, TS, Vitest, Playwright |
+| **🐍 File Organizer** | Desktop App (.exe) | https://github.com/omar-khatab/file-organizer | Python, PySide6, SQLite |
+| **🛒 E-Commerce** | https://e-commerce-three-coral-58.vercel.app/ | https://github.com/omar-khatab/e-commerce | React, Context, Framer Motion |
+| **▲ SaaS Landing** | https://saa-s-landing-next-js-wyx7-git-ver-3448ad-omar-khatabs-projects.vercel.app/ | https://github.com/omar-khatab/saas-landing-next.js | Next.js, Tailwind |
+| **📊 Admin Dashboard** | https://omar-khatab.github.io/Admin-Dashboard/ | https://github.com/omar-khatab/admin-dashboard | HTML, CSS, JS |
+| **🌱 Roots Before React** | https://omar-khatab.github.io/roots-before-react/ | https://github.com/omar-khatab/roots-before-react | HTML5, CSS3, JS |
 
 ---
 
-## 🚀 Getting Started
+### 🔧 HVAC Engineering Suite
 
-```bash
-# Clone the repo
-git clone https://github.com/omar-khatab/Portfolio_Upgrade.git
+Real-world MEP tool solving actual engineering constraints: Duct Sizing, Cooling Load (Q=UAΔT), real-time unit conversion. Built with Next.js 15 + TS Strict, **100% test coverage, Lighthouse 97, CI.**
 
-# Open in browser
-cd Portfolio_Upgrade
-# Open index.html directly or use Live Server
+### 🐍 File Organizer — Python Automation + Desktop GUI
 
-# Or with VS Code Live Server extension
-# Right click index.html → Open with Live Server
-```
+Windows tool I use daily. Sorts Desktop, Downloads or any folder into categorized folders by extension, with dry-run preview, protected-path safeguards, collision handling, and right-click context menu.
 
-No build step needed — pure HTML/CSS/JS with React components where used.
+**v3.0 GUI:** Dark-theme PySide6 GUI with preview, organize, undo, live folder watching, history (SQLite), drag & drop, AR/EN toggle, packaged as .exe.
 
 ---
 
-## 🔗 Featured Projects Links
+## 👨💻 Author
 
-| Project | Live Demo | Source Code |
-|---------|-----------|-------------|
-| **🔧 HVAC Suite** | https://hvac-calculator-ebon.vercel.app/ | https://github.com/omar-khatab/HVAC-Calculator |
-| **🛒 E-Commerce** | https://e-commerce-three-coral-58.vercel.app/ | https://github.com/omar-khatab/e-commerce |
-| **▲ SaaS Landing** | https://saa-s-landing-next-js-wyx7-git-ver-3448ad-omar-khatabs-projects.vercel.app/ | https://github.com/omar-khatab/saas-landing-next.js |
-| **📊 Admin Dashboard** | https://omar-khatab.github.io/Admin-Dashboard/ | https://github.com/omar-khatab/admin-dashboard |
-| **🌱 Roots Before React** | https://omar-khatab.github.io/roots-before-react/ | https://github.com/omar-khatab/roots-before-react |
+**Omar Khatab** — Frontend Developer | Python Automation
 
----
-
-## 🎯 Purpose
-
-This portfolio is built for:
-
-- **Recruiters** — Quickly see my stack, projects, and engineering background
-- **MEP / Engineering Teams** — See HVAC Suite and understand I speak both languages (engineering + code)
-- **Frontend Teams** — See production-ready React/Next.js projects with real-world patterns
-
-**What makes it different:**
-- Not a template — built from scratch
-- Shows progression: 5 vanilla projects → React → Next.js → HVAC (bridge)
-- Featured project is not a todo app — it's domain-specific engineering software
-
----
-
-## 📈 Future Improvements
-
-- [ ] Migrate fully to Next.js 15 App Router
-- [ ] Add TypeScript
-- [ ] Add dark/light mode toggle
-- [ ] Add project case studies (problem → solution → tech → result)
-- [ ] Add blog section for engineering × frontend articles
-- [ ] Performance: Image optimization with next/image
-- [ ] SEO: Meta tags, Open Graph, structured data
-
----
-
-## 👨‍💻 Author
-
-**Omar Khatab** — Engineering Software Developer | Frontend Developer
-
-- 🎓 Ain Shams University — Mechanical Power Engineering (2026)
-- 🔧 Intern: National Authority for Tunnels — HVAC Systems
+- 🎓 Ain Shams University — Mechanical Power Engineering
 - 🌐 Portfolio: https://omar-khatab.github.io/Portfolio_Upgrade/
-- 🔧 HVAC Suite: https://hvac-calculator-ebon.vercel.app/
 - 💼 LinkedIn: https://www.linkedin.com/in/omar-essam-319c/
 - 📧 omaressam0870@gmail.com
 - 🐙 GitHub: https://github.com/omar-khatab
-
----
-
-<div align="center">
-
-### 🚀 Build. Learn. Ship.
-
-**© 2026 Omar Khatab — Engineering Software Developer | Frontend Developer**
-
-`Portfolio built to show: Thermodynamics → TypeScript → Production UI`
-
-<a href="https://omar-khatab.github.io/Portfolio_Upgrade/">
-  <img src="https://img.shields.io/badge/🌐_Visit_Portfolio-Click_Here-111827?style=for-the-badge" />
-</a>
-
-</div>
